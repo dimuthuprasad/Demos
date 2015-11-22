@@ -8,8 +8,7 @@ describe("the let keyword", function () {
             }
             i = 10;
 
-            expect(i).toBe(10);
-        }
+            expect(i).toBe(10);}
 
         test();
 
