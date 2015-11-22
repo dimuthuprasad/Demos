@@ -7,3 +7,11 @@ before_install:
     - sh -e /etc/init.d/xvfb start
 before_script:
     - npm install
+    
+    
+notifications:
+  email:
+    recipients:
+      - idimuthu@gmail.com
+    on_success: never # default: change
+    on_failure: always # default: always
