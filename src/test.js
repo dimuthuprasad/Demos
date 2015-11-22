@@ -7,6 +7,7 @@ describe("the let keyword", function () {
                 console.log(i);
             }
             i = 10;
+
             expect(i).toBe(10);
         }
 
